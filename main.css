@@ -32,6 +32,14 @@ h1{
     padding: 8px 30px;
 }
 
+.main-header > div {
+    display: inline-block;
+}
+
+.main-nav{
+    display: inline-block;
+}
+
 .main-nav__item{
     display: inline-block;
 }
