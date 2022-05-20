@@ -32,3 +32,6 @@ h1{
     padding: 8px 30px;
 }
 
+.main-nav__item{
+    display: inline-block;
+}
