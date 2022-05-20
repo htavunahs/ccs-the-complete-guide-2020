@@ -64,6 +64,7 @@ h1{
     text-decoration: none;
     color: #deff07;
     font-weight: bold;
+    padding: 3.4px 0;
 }
 
 .main-nav__item a:hover,
