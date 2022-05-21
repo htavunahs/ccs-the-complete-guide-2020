@@ -29,11 +29,11 @@ h1{
 .main-header{
     width: 100%;
     background: rgba(37, 36, 130, 0.926);
-    padding: 8px 30px;
+    padding: 12px 30px;
 }
 
 .origin{
-    color: rgb(240, 59, 240);
+    color: rgb(186, 18, 186);
 }
 .main-header > div {
     display: inline-block;
@@ -64,16 +64,30 @@ h1{
     text-decoration: none;
     color: #deff07;
     font-weight: bold;
-    padding: 3.4px 0;
+    padding: 5px 0;
 }
 
 .main-nav__item a:hover,
 .main-nav__item a:active{
-    color: #f3ffa4;
-    border-bottom: 5px solid white;
+    color: #ebfe75;
+    border-bottom: 3px solid white;
 }
 
 .origin:hover,
 .origin:active{
     color:rgb(234, 168, 234);
+}
+
+.main-nav__item--cta a{
+    color:white;
+    background: rgb(238, 75, 75);
+    padding: 8px 16px;
+    border-radius: 8px;
+}
+
+.main-nav__item--cta a:hover,
+.main-nav__item--cta a:active{
+    color: rgb(238, 75, 75);
+    background-color: white;
+    border: none;
 }
